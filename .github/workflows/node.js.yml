@@ -32,5 +32,5 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: npm install, build, and test
       run: |
-        npm install
+        npm install --save &&  npm run  ./node_modules/.bin/wdio wdio.conf.js
         
