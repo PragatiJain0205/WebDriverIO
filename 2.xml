@@ -1,0 +1,187 @@
+<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>
+<ihdsUniversal scope=\"idu-item-derived-standard\" time=\"2022-09-17T04:16:54.271Z\" version=\"1.0\">
+    <domain>
+        <variantNumber type=\"string\">1</variantNumber>
+        <storeSubsystemArticleNumber type=\"string\">107044</storeSubsystemArticleNumber>
+        <gtin type=\"string\">04250241204064</gtin>
+        <environment refKey=\"pp1\" refKind=\"lov\" refName=\"environment\" type=\"string\">pp1</environment>
+        <dataSource refKey=\"PIM\" refKind=\"lov\" refName=\"dataSource\" type=\"string\">PIM</dataSource>
+        <country refKey=\"DE\" refKind=\"lov\" refName=\"country\" type=\"string\">DE</country>
+        <connector refKey=\"BOB\" refKind=\"lov\" refName=\"connector\" type=\"string\">BOB</connector>
+        <company refKey=\"MCC\" refKind=\"lov\" refName=\"company\" type=\"string\">MCC</company>
+        <bundleNumber type=\"string\">1</bundleNumber>
+        <bobKey type=\"string\">00006ff4-70ac-4171-b078-374a7e8b8144</bobKey>
+        <articleNumber type=\"string\">936577</articleNumber>
+        <amountOfBaseItems type=\"string\">1</amountOfBaseItems>
+        <key>documents/de/idu-item-derived-standard?company=mcc&amp;connector=bob&amp;environment=pp1&amp;instanceid=00006ff4-70ac-4171-b078-374a7e8b8144</key>
+        <scopeName refKey=\"idu-item-master\" refKind=\"lov\" refName=\"scopeName\" type=\"string\">idu-item-derived-standard</scopeName>
+    </domain>
+    <content>
+        <articleType refKey=\"STANDARD_ARTICLE\" refKind=\"lov\" refName=\"articleTypes\" validFrom=\"2022-05-28\">STANDARD_ARTICLE</articleType>
+        <assortmentClusterSpecificationV2 validFrom=\"2022-03-21\">
+            <assortmentClusterV2 refKey=\"STANDARD\" refKind=\"lov\" refName=\"assortmentCluster\">STANDARD</assortmentClusterV2>
+        </assortmentClusterSpecificationV2>
+        <basePriceBaseFactor validFrom=\"2019-08-07\">1</basePriceBaseFactor>
+        <categoryManagementArea validFrom=\"2008-06-21\">
+            <categoryManagementAreaNumber refKey=\"62\" refKind=\"tree\" refName=\"categoryManagementArea\">62</categoryManagementAreaNumber>
+        </categoryManagementArea>
+        <countryOfOrigin refKey=\"DE\" refKind=\"lov\" refName=\"country\" validFrom=\"2019-08-07\">DE</countryOfOrigin>
+        <deDutyFeeTaxAgencyCodeCoffeeTax validFrom=\"2022-05-28\">false</deDutyFeeTaxAgencyCodeCoffeeTax>
+        <grossWeight refKey=\"kg\" refKind=\"uom\" refName=\"uomWeight\" validFrom=\"2021-09-29\">0.318</grossWeight>
+        <ifStackable validFrom=\"2001-12-13\">false</ifStackable>
+        <isFoodTradeItem validFrom=\"2008-06-21\">true</isFoodTradeItem>
+        <isTradeItemASellableUnitMerchandise>true</isTradeItemASellableUnitMerchandise>
+        <isTradeItemAVariableUnit validFrom=\"2022-05-28\">false</isTradeItemAVariableUnit>
+        <isTradeItemAnOrderableUnitMerchandise>false</isTradeItemAnOrderableUnitMerchandise>
+        <isTradeItemTraceable validFrom=\"2022-05-28\">false</isTradeItemTraceable>
+        <merchandiseArticleDescription lang=\"de\" validFrom=\"2008-06-21\">BUTTERGEMUESE  300 g IGLO</merchandiseArticleDescription>
+        <merchandiseBrand validFrom=\"2022-05-28\">
+            <merchandiseBrandId refKey=\"218788\" refKind=\"tree\" refName=\"merchandiseBrand\">218788</merchandiseBrandId>
+            <isMerchandiseOwnBrand>false</isMerchandiseOwnBrand>
+        </merchandiseBrand>
+        <merchandiseBrandLevel refKey=\"LEADER\" refKind=\"lov\" refName=\"merchandiseBrandLevel\" validFrom=\"2022-05-28\">LEADER</merchandiseBrandLevel>
+        <merchandiseGroupInformation validFrom=\"2022-05-28\">
+            <merchandiseMainGroup refKey=\"261\" refKind=\"tree\" refName=\"merchandiseGroupInformation\">261</merchandiseMainGroup>
+            <merchandiseSubGroup refKey=\"261-30-20\" refKind=\"tree\" refName=\"merchandiseGroupInformation\">261-30-20</merchandiseSubGroup>
+            <merchandiseGroup refKey=\"261-30\" refKind=\"tree\" refName=\"merchandiseGroupInformation\">261-30</merchandiseGroup>
+        </merchandiseGroupInformation>
+        <merchandisePalletLoadingHeight refKey=\"mm\" refKind=\"uom\" refName=\"uomLength\" validFrom=\"2021-09-29\">1705</merchandisePalletLoadingHeight>
+        <merchandiseQuantityOfLayersPerPallet>13</merchandiseQuantityOfLayersPerPallet>
+        <merchandiseTradeitemPalletDataModule validFrom=\"2021-09-29\">
+            <merchandiseQuantityOfTradeItemsPerPalletLayer>150</merchandiseQuantityOfTradeItemsPerPalletLayer>
+            <merchandiseQuantityOfTradeItemsPerPallet>1950</merchandiseQuantityOfTradeItemsPerPallet>
+        </merchandiseTradeitemPalletDataModule>
+        <minimumTradeItemLifespanFromTimeOfArrival refKey=\"d\" refKind=\"uom\" refName=\"uomTimePeriod\" validFrom=\"2019-08-07\">150</minimumTradeItemLifespanFromTimeOfArrival>
+        <netContentGDSN refKey=\"g\" refKind=\"ncu\" refName=\"uomContent\">300</netContentGDSN>
+        <netWeight refKey=\"g\" refKind=\"uom\" refName=\"uomWeight\" validFrom=\"2019-08-07\">300</netWeight>
+        <netWeightGDSN refKey=\"g\" refKind=\"uom\" refName=\"uomWeight\" validFrom=\"2019-08-07\">300.0</netWeightGDSN>
+        <orderQuantityForOnlineOrdering validFrom=\"2021-08-20\">
+            <isOrderableOnlyInMultipleOfMinimumOrderQuantityForOnlineOrdering>false</isOrderableOnlyInMultipleOfMinimumOrderQuantityForOnlineOrdering>
+        </orderQuantityForOnlineOrdering>
+        <presentationMerchandiseGroupInformation validFrom=\"2010-01-01\">
+            <presentationMerchandiseSubGroup refKey=\"952-1-4\" refKind=\"tree\" refName=\"presentationMerchandiseGroupInformation\">952-1-4</presentationMerchandiseSubGroup>
+            <presentationMerchandiseGroup refKey=\"952-1\" refKind=\"tree\" refName=\"presentationMerchandiseGroupInformation\">952-1</presentationMerchandiseGroup>
+            <presentationMerchandiseMainGroup refKey=\"952\" refKind=\"tree\" refName=\"presentationMerchandiseGroupInformation\">952</presentationMerchandiseMainGroup>
+        </presentationMerchandiseGroupInformation>
+        <purchaseAreaInformation validFrom=\"2022-05-28\">
+            <purchaseAreaNumber refKey=\"162\" refKind=\"tree\" refName=\"purchaseAreaInformation\">162</purchaseAreaNumber>
+        </purchaseAreaInformation>
+        <reportGroupingSupplierNumber validFrom=\"2022-05-28\">52935</reportGroupingSupplierNumber>
+        <storageHandlingTemperatureInformation>
+            <storageHandlingMinimumTemperature refKey=\"CEL\" refKind=\"uom\" refName=\"uomTemperature\">-30</storageHandlingMinimumTemperature>
+            <storageHandlingMaximumTemperature refKey=\"CEL\" refKind=\"uom\" refName=\"uomTemperature\">-25</storageHandlingMaximumTemperature>
+        </storageHandlingTemperatureInformation>
+        <tradeItemDescription lang=\"de\">Iglo Buttergemüse Mix aus Erbsen, Mais, Karotten &amp; Blumenkohl 300 g Paket</tradeItemDescription>
+        <tradeItemMarketingMessage lang=\"de\">Tiefkühlgemüse ist oft eine gute Alternative zu frischem Gemüse und bewahrt zu einem hohen Teil die Vitamine, weil es unmittelbar nach der Ernte tiefgefroren wird.</tradeItemMarketingMessage>
+        <tradeItemMeasurements validFrom=\"2021-09-29\">
+            <depth refKey=\"mm\" refKind=\"uom\" refName=\"uomLength\">152</depth>
+            <height refKey=\"mm\" refKind=\"uom\" refName=\"uomLength\">38</height>
+            <width refKey=\"mm\" refKind=\"uom\" refName=\"uomLength\">118</width>
+        </tradeItemMeasurements>
+        <variantSizeDescriptionV2 lang=\"en\" validFrom=\"2012-01-01\">n.a.</variantSizeDescriptionV2>
+        <variantSortDescriptionV2 lang=\"de\" validFrom=\"2012-01-01\">STAND.-VAR.</variantSortDescriptionV2>
+        <variantSortDescriptionV2 lang=\"en\" validFrom=\"2012-01-01\">STAND.-VAR.</variantSortDescriptionV2>
+        <vatCodeInformation validFrom=\"2022-05-28\">
+            <vatRegionCode refKey=\"National\" refKind=\"lov\" refName=\"vatRegionCode\">National</vatRegionCode>
+            <dutyFeeTaxCategoryCodeVat refKey=\"DE_5\" refKind=\"lov\" refName=\"vatCodesBuying\">DE_5</dutyFeeTaxCategoryCodeVat>
+            <vatCode refKey=\"DE_5\" refKind=\"lov\" refName=\"vatCodes\">DE_5</vatCode>
+        </vatCodeInformation>
+        <volume refKey=\"m3\" refKind=\"uom\" refName=\"uomVolume\" validFrom=\"2021-09-29\">0.001</volume>
+        <cedHierarchyInformation>
+            <cedTreeId>3c146856-4de5-4f30-b333-daeb8a34169b</cedTreeId>
+            <cedTypeOfTree refKey=\"standard\" refKind=\"lov\" refName=\"cedTypeOfTree\">standard</cedTypeOfTree>
+            <cedTreeVersion>21</cedTreeVersion>
+            <cedCategoryId>Root</cedCategoryId>
+        </cedHierarchyInformation>
+    </content>
+    <references>
+        <reference refKey=\"g\" refKind=\"uom\" refName=\"uomWeight\">
+            <label lang=\"de-DE\">Gramm</label>
+            <label lang=\"en-GB\">Gram</label>
+        </reference>
+        <reference refKey=\"LEADER\" refKind=\"lov\" refName=\"merchandiseBrandLevel\">
+            <label lang=\"en-GB\">Leader</label>
+        </reference>
+        <reference refKey=\"kg\" refKind=\"uom\" refName=\"uomWeight\">
+            <label lang=\"de-DE\">Kilogramm</label>
+            <label lang=\"en-GB\">Kilogram</label>
+        </reference>
+        <reference refKey=\"261-30-20\" refKind=\"tree\" refName=\"merchandiseGroupInformation\">
+            <label lang=\"de\">GEMISCHTES GEMUESE</label>
+            <label lang=\"en\">VEGETABLES MIXES</label>
+        </reference>
+        <reference refKey=\"STANDARD\" refKind=\"lov\" refName=\"assortmentCluster\">
+            <label lang=\"de-DE\">Standard assortment</label>
+            <label lang=\"en-GB\">Standard assortment</label>
+        </reference>
+        <reference refKey=\"DE\" refKind=\"lov\" refName=\"country\">
+            <label lang=\"de-DE\">Deutschland</label>
+            <label lang=\"en-GB\">GERMANY</label>
+        </reference>
+        <reference refKey=\"g\" refKind=\"ncu\" refName=\"uomContent\">
+            <label lang=\"de-DE\">Gramm</label>
+            <label lang=\"en-GB\">Gram</label>
+        </reference>
+        <reference refKey=\"National\" refKind=\"lov\" refName=\"vatRegionCode\">
+            <label lang=\"de-DE\">National VAT scheme</label>
+            <label lang=\"en-GB\">National VAT scheme</label>
+        </reference>
+        <reference refKey=\"d\" refKind=\"uom\" refName=\"uomTimePeriod\">
+            <label lang=\"de-DE\">Tage</label>
+            <label lang=\"en-GB\">Days</label>
+        </reference>
+        <reference refKey=\"261-30\" refKind=\"tree\" refName=\"merchandiseGroupInformation\">
+            <label lang=\"de\">GEMISCHTES GEHACKTES GEMUESE</label>
+            <label lang=\"en\">MIXED CHOPPED VEGETABLES</label>
+        </reference>
+        <reference refKey=\"62\" refKind=\"tree\" refName=\"categoryManagementArea\">
+            <label lang=\"de\">ACM TKK</label>
+        </reference>
+        <reference refKey=\"STANDARD_ARTICLE\" refKind=\"lov\" refName=\"articleTypes\">
+            <label lang=\"de-DE\">Standard Article</label>
+            <label lang=\"en-GB\">Standard Article</label>
+        </reference>
+        <reference refKey=\"952\" refKind=\"tree\" refName=\"presentationMerchandiseGroupInformation\">
+            <label lang=\"de\">TK-Obst/Gemuese/Kartoffelprod.</label>
+        </reference>
+        <reference refKey=\"952-1\" refKind=\"tree\" refName=\"presentationMerchandiseGroupInformation\">
+            <label lang=\"de\">TK-Gemuese</label>
+        </reference>
+        <reference refKey=\"218788\" refKind=\"tree\" refName=\"merchandiseBrand\">
+            <label lang=\"de-DE\">IGLO</label>
+            <label lang=\"en-GB\">IGLO</label>
+        </reference>
+        <reference refKey=\"m3\" refKind=\"uom\" refName=\"uomVolume\">
+            <label lang=\"de-DE\">Kubikmeter</label>
+            <label lang=\"en-GB\">Cubic metre</label>
+        </reference>
+        <reference refKey=\"mm\" refKind=\"uom\" refName=\"uomLength\">
+            <label lang=\"de-DE\">Millimeter</label>
+            <label lang=\"en-GB\">Millimetre</label>
+        </reference>
+        <reference refKey=\"CEL\" refKind=\"uom\" refName=\"uomTemperature\">
+            <label lang=\"de-DE\">Grad Celsius</label>
+            <label lang=\"en-GB\">Degree Celsius</label>
+        </reference>
+        <reference refKey=\"standard\" refKind=\"lov\" refName=\"cedTypeOfTree\"/>
+        <reference refKey=\"952-1-4\" refKind=\"tree\" refName=\"presentationMerchandiseGroupInformation\">
+            <label lang=\"de\">Gemuese Mischung LEH</label>
+        </reference>
+        <reference refKey=\"DE_5\" refKind=\"lov\" refName=\"vatCodesBuying\">
+            <label lang=\"de-DE\">7</label>
+            <label lang=\"en-GB\">7</label>
+        </reference>
+        <reference refKey=\"261\" refKind=\"tree\" refName=\"merchandiseGroupInformation\">
+            <label lang=\"de\">TIEFKUEHLGEMUESE</label>
+            <label lang=\"en\">FROZEN VEGETABLES</label>
+        </reference>
+        <reference refKey=\"162\" refKind=\"tree\" refName=\"purchaseAreaInformation\">
+            <label lang=\"de\">TIEFKUEHLKOST/GEFLUEGEL</label>
+            <label lang=\"en\">FROZEN FOOD/POULTRY</label>
+        </reference>
+        <reference refKey=\"DE_5\" refKind=\"lov\" refName=\"vatCodes\">
+            <label lang=\"de-DE\">7</label>
+            <label lang=\"en-GB\">7</label>
+        </reference>
+    </references>
+</ihdsUniversal>

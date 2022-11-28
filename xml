@@ -1,0 +1,166 @@
+<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>
+<ihdsUniversal scope=\"idu-item-derived-standard\" time=\"2022-08-17T15:51:48.297Z\" version=\"1.0\">
+    <domain>
+        <variantNumber type=\"string\">1</variantNumber>
+        <gtin type=\"string\">04043362041409</gtin>
+        <environment refKey=\"pp1\" refKind=\"lov\" refName=\"environment\" type=\"string\">pp1</environment>
+        <dataSource refKey=\"PIM\" refKind=\"lov\" refName=\"dataSource\" type=\"string\">PIM</dataSource>
+        <country refKey=\"DE\" refKind=\"lov\" refName=\"country\" type=\"string\">DE</country>
+        <connector refKey=\"BOB\" refKind=\"lov\" refName=\"connector\" type=\"string\">BOB</connector>
+        <company refKey=\"MCC\" refKind=\"lov\" refName=\"company\" type=\"string\">MCC</company>
+        <bundleNumber type=\"string\">3</bundleNumber>
+        <bobKey type=\"string\">000069b8-3c9c-4e10-bbc5-6f7e6a385fda</bobKey>
+        <articleNumber type=\"string\">164837</articleNumber>
+        <amountOfBaseItems type=\"string\">6</amountOfBaseItems>
+        <key>documents/de/idu-item-derived-standard?company=mcc&amp;connector=bob&amp;environment=pp1&amp;instanceid=000069b8-3c9c-4e10-bbc5-6f7e6a385fda</key>
+        <scopeName refKey=\"idu-item-master\" refKind=\"lov\" refName=\"scopeName\" type=\"string\">idu-item-derived-standard</scopeName>
+    </domain>
+    <content>
+        <articleType refKey=\"STANDARD_ARTICLE\" refKind=\"lov\" refName=\"articleTypes\" validFrom=\"2022-05-29\">STANDARD_ARTICLE</articleType>
+        <assortmentClusterSpecificationV2 validFrom=\"2022-03-21\">
+            <assortmentClusterV2 refKey=\"STANDARD\" refKind=\"lov\" refName=\"assortmentCluster\">STANDARD</assortmentClusterV2>
+        </assortmentClusterSpecificationV2>
+        <categoryManagementArea validFrom=\"2018-10-14\">
+            <categoryManagementAreaNumber refKey=\"63\" refKind=\"tree\" refName=\"categoryManagementArea\">63</categoryManagementAreaNumber>
+        </categoryManagementArea>
+        <countryOfOrigin refKey=\"DE\" refKind=\"lov\" refName=\"country\" validFrom=\"2015-03-19\">DE</countryOfOrigin>
+        <deDutyFeeTaxAgencyCodeCoffeeTax validFrom=\"2022-05-29\">false</deDutyFeeTaxAgencyCodeCoffeeTax>
+        <grossWeight refKey=\"kg\" refKind=\"uom\" refName=\"uomWeight\" validFrom=\"2015-06-23\">7.900</grossWeight>
+        <ifStackable validFrom=\"2015-03-19\">false</ifStackable>
+        <isFoodTradeItem validFrom=\"2018-10-14\">true</isFoodTradeItem>
+        <isTradeItemASellableUnitMerchandise>true</isTradeItemASellableUnitMerchandise>
+        <isTradeItemAVariableUnit validFrom=\"2022-05-29\">false</isTradeItemAVariableUnit>
+        <isTradeItemAnOrderableUnitMerchandise>true</isTradeItemAnOrderableUnitMerchandise>
+        <isTradeItemTraceable validFrom=\"2022-05-29\">false</isTradeItemTraceable>
+        <merchandiseArticleDescription lang=\"en\" validFrom=\"2015-03-19\">n.a.</merchandiseArticleDescription>
+        <merchandiseArticleDescription lang=\"de\" validFrom=\"2018-10-14\">550g PULLED CHICKEN</merchandiseArticleDescription>
+        <merchandiseBrand validFrom=\"2022-05-29\">
+            <merchandiseBrandId refKey=\"223258\" refKind=\"tree\" refName=\"merchandiseBrand\">223258</merchandiseBrandId>
+            <isMerchandiseOwnBrand>false</isMerchandiseOwnBrand>
+        </merchandiseBrand>
+        <merchandiseBrandLevel refKey=\"CHALLENGER\" refKind=\"lov\" refName=\"merchandiseBrandLevel\" validFrom=\"2022-05-29\">CHALLENGER</merchandiseBrandLevel>
+        <merchandiseGroupInformation validFrom=\"2022-05-29\">
+            <merchandiseMainGroup refKey=\"317\" refKind=\"tree\" refName=\"merchandiseGroupInformation\">317</merchandiseMainGroup>
+            <merchandiseSubGroup refKey=\"317-50-32\" refKind=\"tree\" refName=\"merchandiseGroupInformation\">317-50-32</merchandiseSubGroup>
+            <merchandiseGroup refKey=\"317-50\" refKind=\"tree\" refName=\"merchandiseGroupInformation\">317-50</merchandiseGroup>
+        </merchandiseGroupInformation>
+        <merchandisePalletLoadingHeight refKey=\"mm\" refKind=\"uom\" refName=\"uomLength\" validFrom=\"2015-06-23\">1920</merchandisePalletLoadingHeight>
+        <merchandiseTradeitemPalletDataModule validFrom=\"2015-06-23\">
+            <merchandiseQuantityOfTradeItemsPerPalletLayer>7</merchandiseQuantityOfTradeItemsPerPalletLayer>
+            <merchandiseQuantityOfTradeItemsPerPallet>56</merchandiseQuantityOfTradeItemsPerPallet>
+        </merchandiseTradeitemPalletDataModule>
+        <minimumTradeItemLifespanFromTimeOfArrival refKey=\"d\" refKind=\"uom\" refName=\"uomTimePeriod\" validFrom=\"2015-03-19\">160</minimumTradeItemLifespanFromTimeOfArrival>
+        <netWeight refKey=\"g\" refKind=\"uom\" refName=\"uomWeight\" validFrom=\"2015-03-19\">550</netWeight>
+        <netWeightGDSN refKey=\"g\" refKind=\"uom\" refName=\"uomWeight\" validFrom=\"2015-03-19\">3300.0</netWeightGDSN>
+        <presentationMerchandiseGroupInformation validFrom=\"2018-10-13\">
+         <presentationMerchandiseSubGroup refKey=\"972-2-15\" refKind=\"tree\" refName=\"presentationMerchandiseGroupInformation\">972-2-15</presentationMerchandiseSubGroup>
+           <presentationMerchandiseGroup refKey=\"972-2\" refKind=\"tree\" refName=\"presentationMerchandiseGroupInformation\">972-2</presentationMerchandiseGroup>
+            <presentationMerchandiseMainGroup refKey=\"972\" refKind=\"tree\" refName=\"presentationMerchandiseGroupInformation\">972</presentationMerchandiseMainGroup>
+        </presentationMerchandiseGroupInformation>
+        <purchaseAreaInformation validFrom=\"2022-05-29\">
+            <purchaseAreaNumber refKey=\"163\" refKind=\"tree\" refName=\"purchaseAreaInformation\">163</purchaseAreaNumber>
+        </purchaseAreaInformation>
+        <reportGroupingSupplierNumber validFrom=\"2022-05-29\">30188</reportGroupingSupplierNumber>
+        <tradeItemMeasurements validFrom=\"2015-06-23\">
+            <depth refKey=\"mm\" refKind=\"uom\" refName=\"uomLength\">356</depth>
+            <height refKey=\"mm\" refKind=\"uom\" refName=\"uomLength\">231</height>
+            <width refKey=\"mm\" refKind=\"uom\" refName=\"uomLength\">294</width>
+        </tradeItemMeasurements>
+        <variantSortDescriptionV2 lang=\"de\" validFrom=\"2015-03-19\">STAND.-VAR.</variantSortDescriptionV2>
+        <variantSortDescriptionV2 lang=\"en\" validFrom=\"2015-03-19\">n.a.</variantSortDescriptionV2>
+        <vatCodeInformation validFrom=\"2022-05-29\">
+            <vatRegionCode refKey=\"National\" refKind=\"lov\" refName=\"vatRegionCode\">National</vatRegionCode>
+            <dutyFeeTaxCategoryCodeVat refKey=\"DE_5\" refKind=\"lov\" refName=\"vatCodesBuying\">DE_5</dutyFeeTaxCategoryCodeVat>
+            <vatCode refKey=\"DE_5\" refKind=\"lov\" refName=\"vatCodes\">DE_5</vatCode>
+        </vatCodeInformation>
+        <volume refKey=\"m3\" refKind=\"uom\" refName=\"uomVolume\" validFrom=\"2015-06-23\">0.024</volume>
+        <cedHierarchyInformation>
+            <cedTreeId>3c146856-4de5-4f30-b333-daeb8a34169b</cedTreeId>
+            <cedTypeOfTree refKey=\"standard\" refKind=\"lov\" refName=\"cedTypeOfTree\">standard</cedTypeOfTree>
+            <cedTreeVersion>21</cedTreeVersion>
+            <cedCategoryId>Root</cedCategoryId>
+        </cedHierarchyInformation>
+    </content>
+    <references>
+        <reference refKey=\"g\" refKind=\"uom\" refName=\"uomWeight\">
+            <label lang=\"de-DE\">Gramm</label>
+            <label lang=\"en-GB\">Gram</label>
+        </reference>
+        <reference refKey=\"972-2\" refKind=\"tree\" refName=\"presentationMerchandiseGroupInformation\">
+            <label lang=\"de\">GEGART FRISCH</label>
+        </reference>
+        <reference refKey=\"kg\" refKind=\"uom\" refName=\"uomWeight\">
+            <label lang=\"de-DE\">Kilogramm</label>
+            <label lang=\"en-GB\">Kilogram</label>
+        </reference>
+        <reference refKey=\"STANDARD\" refKind=\"lov\" refName=\"assortmentCluster\">
+            <label lang=\"de-DE\">Standard assortment</label>
+            <label lang=\"en-GB\">Standard assortment</label>
+        </reference>
+        <reference refKey=\"DE\" refKind=\"lov\" refName=\"country\">
+            <label lang=\"de-DE\">Deutschland</label>
+            <label lang=\"en-GB\">GERMANY</label>
+        </reference>
+        <reference refKey=\"National\" refKind=\"lov\" refName=\"vatRegionCode\">
+            <label lang=\"de-DE\">National VAT scheme</label>
+            <label lang=\"en-GB\">National VAT scheme</label>
+        </reference>
+        <reference refKey=\"d\" refKind=\"uom\" refName=\"uomTimePeriod\">
+            <label lang=\"de-DE\">Tage</label>
+            <label lang=\"en-GB\">Days</label>
+        </reference>
+        <reference refKey=\"63\" refKind=\"tree\" refName=\"categoryManagementArea\">
+            <label lang=\"de\">ACM FLEISCH</label>
+        </reference>
+        <reference refKey=\"STANDARD_ARTICLE\" refKind=\"lov\" refName=\"articleTypes\">
+            <label lang=\"de-DE\">Standard Article</label>
+            <label lang=\"en-GB\">Standard Article</label>
+        </reference>
+        <reference refKey=\"972-2-15\" refKind=\"tree\" refName=\"presentationMerchandiseGroupInformation\">
+            <label lang=\"de\">Geflügel</label>
+        </reference>
+        <reference refKey=\"972\" refKind=\"tree\" refName=\"presentationMerchandiseGroupInformation\">
+            <label lang=\"de\">CONVENIENCE FLEISCHWAREN</label>
+        </reference>
+        <reference refKey=\"317\" refKind=\"tree\" refName=\"merchandiseGroupInformation\">
+            <label lang=\"de\">CONV. FR.</label>
+            <label lang=\"en\">FRESH READY TO COOK</label>
+        </reference>
+        <reference refKey=\"m3\" refKind=\"uom\" refName=\"uomVolume\">
+            <label lang=\"de-DE\">Kubikmeter</label>
+            <label lang=\"en-GB\">Cubic metre</label>
+        </reference>
+        <reference refKey=\"317-50\" refKind=\"tree\" refName=\"merchandiseGroupInformation\">
+            <label lang=\"de\">RTC</label>
+            <label lang=\"en\">PROCESSED MEAT </label>
+        </reference>
+        <reference refKey=\"223258\" refKind=\"tree\" refName=\"merchandiseBrand\">
+            <label lang=\"de-DE\">TILLMAN'S</label>
+            <label lang=\"en-GB\">TILLMAN'S</label>
+        </reference>
+        <reference refKey=\"mm\" refKind=\"uom\" refName=\"uomLength\">
+            <label lang=\"de-DE\">Millimeter</label>
+            <label lang=\"en-GB\">Millimetre</label>
+        </reference>
+        <reference refKey=\"standard\" refKind=\"lov\" refName=\"cedTypeOfTree\"/>
+        <reference refKey=\"DE_5\" refKind=\"lov\" refName=\"vatCodesBuying\">
+            <label lang=\"de-DE\">7</label>
+            <label lang=\"en-GB\">7</label>
+        </reference>
+        <reference refKey=\"317-50-32\" refKind=\"tree\" refName=\"merchandiseGroupInformation\">
+            <label lang=\"de\">CONV. FR.RTC GEBR.</label>
+            <label lang=\"en\">ROASTED</label>
+        </reference>
+        <reference refKey=\"CHALLENGER\" refKind=\"lov\" refName=\"merchandiseBrandLevel\">
+            <label lang=\"en-GB\">Challanger</label>
+        </reference>
+        <reference refKey=\"163\" refKind=\"tree\" refName=\"purchaseAreaInformation\">
+            <label lang=\"de\">FLEISCH</label>
+            <label lang=\"en\">MEAT</label>
+        </reference>
+        <reference refKey=\"DE_5\" refKind=\"lov\" refName=\"vatCodes\">
+            <label lang=\"de-DE\">7</label>
+            <label lang=\"en-GB\">7</label>
+        </reference>
+    </references>
+</ihdsUniversal>
