@@ -8,3 +8,5 @@ fileignoreconfig:
 - filename: xml
   checksum: b84e44992df4222f0d8dec6f4bb071f1fe251b13751fe0b9e396370609e88ed7
 version: "1.0"
+filename: node_modules/@types/inquirer/lib/prompts/password.d.ts
+checksum: 21c50646c06f2812dc119771e6984e95a22ec5832ef9d9064b905a8446de9110
