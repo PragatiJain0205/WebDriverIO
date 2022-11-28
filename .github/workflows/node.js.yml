@@ -33,4 +33,5 @@ jobs:
     - name: npm install, build, and test
       run: |
         npm install
-        npm run wdio
+         npm run build --if-present
+        ./node_modules/.bin/wdio wdio.conf.js
