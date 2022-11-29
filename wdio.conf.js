@@ -340,6 +340,7 @@ exports.config = {
     //
     user: process.env.SAUCE_USERNAME,
     key: process.env.SAUCE_ACCESS_KEY,
+    region: 'us', // or 'eu' or 'apac'
     //
     // If you run your tests on SauceLabs you can specify the region you want to run your tests
     // in via the `region` property. Available short handles for regions are `us` (default) and `eu`.
@@ -391,10 +392,25 @@ exports.config = {
         // 5 instance gets started at a time.
         //maxInstances: 5,
         //
-        {browserName: 'firefox', platformName: 'Windows 10', browserVersion: 'latest', 'sauce:options': {'seleniumVersion': '3.14.0'}},
-        {browserName: 'chrome', platform: 'OS X 10.13', version: 'latest'},
-        {browserName: 'internet explorer', platform: 'Windows 10', version: '11.0'}
+        // {browserName: 'firefox', platformName: 'Windows 10', browserVersion: 'latest', 'sauce:options': {'seleniumVersion': '3.14.0'}},
+        // {browserName: 'chrome', platform: 'OS X 10.13', version: 'latest'},
+        // {browserName: 'internet explorer', platform: 'Windows 10', version: '11.0'}
+        {
+            browserName: 'chrome',
+            platformName: 'Windows 10',
+            browserVersion: 'latest',
+            // Sauce options can be found here https://wiki.saucelabs.com/display/DOCS/Test+Configuration+Options
+            // 'sauce:options': {
+            //     tunnelIdentifier: 'YourTunnelName',
+            //
+            //     // Example options
+            //     build: 'your-build-name',
+            //     screenResolution: '1600x1200',
+            //     // ...
+            // },
+        },
     ],
+
     //
     // ===================
     // Test Configurations
@@ -442,7 +458,14 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: ['sauce'],
+    services: [
+        ['sauce', {
+            sauceConnect: true,
+            sauceConnectOpts: {
+                // ...
+            }
+        }]
+    ],
     //
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
