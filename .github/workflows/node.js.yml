@@ -1,40 +1,19 @@
-name: Node CI
-
-
-on: [push]
-
-
+name: Main
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
 jobs:
   build:
-
-
     runs-on: ubuntu-latest
 
-
-    strategy:
-      matrix:
-        node-version: [14.x]
-
-
     steps:
-    - uses: nanasess/setup-chromedriver@master
-      with:
-       chromedriver-version: '106.0.5249.61'
-    - run: |
-       export DISPLAY=:99
-       chromedriver --url-base=/wd/hub &
-       sudo Xvfb -ac :99 -screen 0 1280x1024x24 > /dev/null 2>&1 & # optional
-    
-    - uses: actions/checkout@v1
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - name: npm install
-      run: |
-        npm install 
-      - name: npm test
-      run: |
-        npm run wdio
-        
-        
+      - uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v2
+        with: 
+          node-version: "14.x"
+      - name: Install dependencies
+        run: npm install
+      - name: Run test
+        run: npm test
