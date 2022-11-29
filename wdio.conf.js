@@ -19,6 +19,28 @@ exports.config = {
     // If you are calling `wdio` from an NPM script (see https://docs.npmjs.com/cli/run-script),
     // then the current working directory is where your `package.json` resides, so `wdio`
     // will be called from there.
+
+    // Runner Configuration
+    // ====================
+    //
+    // WebdriverIO allows it to run your tests in arbitrary locations (e.g. locally or
+    // on a remote machine).
+    runner: 'local',
+    //
+    // =================
+    // Service Providers
+    // =================
+    // WebdriverIO supports Sauce Labs, Browserstack, and Testing Bot (other cloud providers
+    // should work too though). These services define specific user and key (or access key)
+    // values you need to put in here in order to connect to these services.
+    //
+    user: process.env.SAUCE_USERNAME,
+    key: process.env.SAUCE_ACCESS_KEY,
+    //
+    // If you run your tests on SauceLabs you can specify the region you want to run your tests
+    // in via the `region` property. Available short handles for regions are `us` (default) and `eu`.
+    // These regions are used for the Sauce Labs VM cloud and the Sauce Labs Real Device Cloud.
+    // If you don't provide the region it will default for the `us`
     //
     specs: [
         // './test/specs/**/*.js'
@@ -115,6 +137,8 @@ exports.config = {
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
     services: ['chromedriver'],
+
+    services: ['sauce'],
 
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
