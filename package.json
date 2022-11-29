@@ -9,7 +9,7 @@
         "@wdio/sauce-service": "^7.25.2",
         "@wdio/spec-reporter": "^7.20.3",
         "chromedriver": "105.0.1",
-        "wdio-chromedriver-service": "^7.3.2"
+        "wdio-chromedriver-service": "^7.2.8"
     },
     "scripts": {
         "wdio": "wdio run wdio.conf.js"
